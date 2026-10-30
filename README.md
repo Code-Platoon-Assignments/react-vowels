@@ -28,7 +28,7 @@ Your application should contain:
 - An element that displays the entered word
 - Functionality to display the submitted word
 
-Be sure to separate your logic into different components here (i.e. don't put all of your logic in `App.jsx`)
+You can keep everything in `App.jsx` for now. After the components lecture, come back and split it into components (for example a form, a word display, and a word list) that pass data with props.
 
 ## Release 2: Finding Vowels
 
