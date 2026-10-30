@@ -7,8 +7,9 @@ For this challenge, you'll have to create a React application from the ground up
 To create a React application, we must run this command in our terminal:
 
 ```sh
-$> npm create vite vowels
+$> npm create vite@latest vowels -- --template react
 $> cd vowels
+$> npm install
 ```
 
 We should begin adding our changes to the `src/App.jsx` component, and rendering other components (as needed) from within our `App` component's render logic. `App` is the top-level component for our React application. 
@@ -27,7 +28,7 @@ Your application should contain:
 - An element that displays the entered word
 - Functionality to display the submitted word
 
-Be sure to separate your logic into different components here (i.e. don't put all of your logic in `App.js`)
+Be sure to separate your logic into different components here (i.e. don't put all of your logic in `App.jsx`)
 
 ## Release 2: Finding Vowels
 
